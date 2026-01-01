@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "564350382990",
+    "project_id": "kirra-8c2ac",
+    "storage_bucket": "kirra-8c2ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564350382990:android:bb261056aee7c402f62adf",
+        "android_client_info": {
+          "package_name": "com.example.kirra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrG4TD81gJ7BSAQgMCCL8ghmGqyGlgkKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

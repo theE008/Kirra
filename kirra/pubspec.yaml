@@ -31,6 +31,32 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Firebase Core e Firestore
+  firebase_core: ^3.0.0
+  cloud_firestore: ^5.0.0
+  firebase_auth: ^5.0.0 # Mesmo que use ID Key, o Auth ajuda a gerenciar a sessão
+
+  # Banco de Dados Local
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+  # Criptografia (AES é o mais recomendado para mensagens)
+  encrypt: ^5.0.1
+
+  # Interface e Mídia
+  cached_network_image: ^3.3.1 # Para fotos de perfil e imagens
+  flutter_chat_ui: ^1.6.11      # Uma base pronta de UI de chat (opcional, mas economiza tempo)
+  flutter_markdown: ^0.7.1      # Ótimo para lidar com fontes e estilos customizados
+  any_link_preview: ^3.0.1      # Para gerar aquele card bonitinho de links (substitui o iframe)
+  font_awesome_flutter: ^10.7.0 # Ícones extras
+  
+  shared_preferences: ^2.2.3
+  sqflite_common_ffi: ^2.3.2+1 # Necessário para Windows/Linux
+  path_provider: ^2.1.2
+
+  audioplayers: ^5.2.1  # Para tocar a música da intro
+  google_fonts: ^6.2.1  # Para trocar as fontes dinamicamente
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -58,8 +84,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/audio/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
